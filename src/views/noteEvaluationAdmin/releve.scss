@@ -1,0 +1,126 @@
+.releve-style {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  th {
+    background-color: #fff;
+    width: 108px;
+  }
+
+  td.semester {
+    background-color: #fff;
+    font-weight: bold;
+  }
+
+  td.filiere {
+    font-weight: bold;
+  }
+}
+
+.sem_cell {
+  width: 113px;
+  font-size: 12px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ue_cell {
+  border: 1px solid;
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+  text-align: center;
+  .ue_cell_inner {
+    height: 85px;
+    border-bottom: 1px solid;
+    .ue_cell_inner_ec {
+      height: 42.5px;
+      border-bottom: 1px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.ue_cell1 {
+  width: 113px;
+}
+.ue_cell2 {
+  width: 113px;
+}
+.ue_cell3 {
+  width: 113px;
+}
+.ue_cell4 {
+  width: 113px;
+}
+.ue_cell5 {
+  width: 113px;
+}
+.ue_cell6 {
+  width: 114px;
+}
+.ue_cell7 {
+  width: 113px;
+}
+
+.total_semestre_cell {
+  border: 1px solid;
+  display: flex;
+  font-size: 12px;
+  height: 35px;
+  .tl_sem_cell {
+    width: 225px;
+    border-right: 1px solid;
+  }
+  .tl_sem_cell_empty {
+    width: 452px;
+    border-right: 1px solid;
+  }
+  .tl_sem_cell_value {
+    border-right: 1px solid;
+    width: 115px;
+
+    text-align: center;
+  }
+}
+
+.end_cells {
+  border: 1px solid;
+  display: flex;
+
+  font-size: 12px;
+  height: 35px;
+  .ends_cells_title {
+    width: 225px;
+    border-right: 1px solid;
+  }
+  .ends_cells_empty {
+    width: 452px;
+    border-right: 1px solid;
+  }
+  .ends_cells_value {
+    width: 115px;
+
+    text-align: center;
+    border-right: 1px solid;
+  }
+}
+
+@media print {
+  .to-print {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,44 @@
+.topbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .level-one_ {
+    margin-left: 1rem;
+    font-weight: 700;
+  }
+  .search-input-container {
+    display: flex;
+    height: 40px;
+    margin: 0 8rem;
+    background: #fff;
+    width: 20%;
+    border-radius: 10px;
+  }
+  .notif-button-container {
+    display: flex;
+    width: 30%;
+    height: 30px;
+    gap: 1rem;
+    justify-content: flex-end;
+
+    .notifButton {
+      background: #e95060;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 300;
+      font-family: "Poppins", sans-serif;
+      text-transform: capitalize;
+      border-radius: 15px;
+      width: 70%;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .topbar-container {
+    h1 {
+      padding-top: 1rem;
+      font-size: 10px;
+    }
+  }
+}

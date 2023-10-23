@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) {
+  .dashboard-respo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .bloc-top {
+      width: 100% !important;
+      .classes-container-div {
+        display: flex;
+        flex-direction: column;
+      }
+      .emp-data {
+        display: flex;
+        flex-direction: column;
+      }
+      .support-cours {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

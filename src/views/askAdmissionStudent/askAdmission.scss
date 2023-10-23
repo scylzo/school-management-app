@@ -1,0 +1,23 @@
+.info {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .admission-state-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    p {
+      font-size: 12px;
+    }
+    button {
+      p {
+        font-size: 10px;
+        span {
+          display: block;
+          font-size: 8px;
+          color: yellow;
+        }
+      }
+    }
+  }
+}

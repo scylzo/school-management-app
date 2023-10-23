@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  .MuiPopover-paper {
+    width: 24% !important;
+  }
+  .certificat-button {
+    width: 50px !important;
+    font-size: 10px !important;
+  }
+  .certificat-container {
+    display: none;
+  }
+  .paiement-facture-container {
+    display: none;
+  }
+
+  .afficher-button {
+    font-size: 8px !important;
+    width: 20px;
+  }
+  .div-area-main-content-elt {
+    button {
+      font-size: 10px;
+    }
+  }
+}

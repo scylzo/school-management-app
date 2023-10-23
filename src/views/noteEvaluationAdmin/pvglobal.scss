@@ -1,0 +1,75 @@
+.pv-style {
+  table {
+    border-collapse: collapse;
+    font-size: 9px !important;
+  }
+
+  th,
+  td {
+    font-size: 9px !important;
+    border: 1px solid black;
+    text-align: center !important;
+    width: 32px !important;
+    word-wrap: break-word;
+  }
+
+  th {
+    background-color: #ffffff;
+  }
+
+  td.semester {
+    background-color: #cccccc;
+    font-weight: bold;
+  }
+
+  td.filiere {
+    font-weight: bold;
+  }
+
+  .th-pv-title {
+    width: 170px;
+    font-size: 9px !important;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, sans-serif;
+  }
+
+  .th-pv {
+    font-size: 9px !important;
+    width: 15px;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, sans-serif;
+  }
+
+  .text-vertical {
+    writing-mode: vertical-lr;
+    font-size: 9px !important;
+
+    font-family: "Times New Roman", Times, sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+  .ec-text {
+    font-family: "Times New Roman", Times, sans-serif;
+    font-weight: 500;
+    font-size: 9px !important;
+    padding: 4px;
+  }
+  .pv-data-tr {
+    td {
+      font-size: 9px !important;
+      font-family: "Times New Roman", Times, sans-serif;
+      font-weight: 400;
+    }
+  }
+}
+.ec-no-tp {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight: 500;
+  font-size: 9px !important;
+  padding: 4px;
+  border-bottom: 1px solid;
+}
+
+.ec-inner-td-bloc {
+  border-right: 1px solid;
+}
